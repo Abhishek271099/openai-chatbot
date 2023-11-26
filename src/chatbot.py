@@ -106,7 +106,7 @@ class Chatbot():
         Args:
             session_id (str): session_id for given to user
         """
-        documents = await collection.find({"session_id":session_id}).sort([("date-time",pymongo.DESCENDING)]).limit(10)     
+        documents = await collection.find({"session_id":session_id}).sort([("time-stamp",pymongo.DESCENDING)]).limit(10)     
         updated_history = []
         async for document in documents:                            
             updated_history.append({"role":"assistant", "content":document["response"]})     

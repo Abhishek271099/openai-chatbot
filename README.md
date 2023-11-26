@@ -1,10 +1,10 @@
 # Openai Chatbot
 
-This chatbot is built with openai's apis. Purpose of this chatbot is to answer user's query related to some topic. 
-documents for the topic is/need to be indexed in Azure Cognitive Search's index.
-conversation is saved in MongoDB's database collection
-Since there are token limits for llm models, chatbot is set to load the last 5 QA pairs from database.
-The FastAPI framework is utilized to build the API, and all methods in the chatbot class are asynchronous to handle concurrent requests efficiently.
+- This chatbot is built with openai's apis. Purpose of this chatbot is to answer user's query related to some topic. 
+- documents for the topic is/need to be indexed in Azure Cognitive Search's index.
+- conversation is saved in MongoDB's database collection
+- Since there are token limits for llm models, chatbot is set to load the last 5 QA pairs from database.
+- The FastAPI framework is utilized to build the API, and all methods in the chatbot class are asynchronous to handle concurrent requests efficiently.
 
 ## Features
 

@@ -1,0 +1,6 @@
+azure-search-documents==11.4.0b11
+azure-keyvault==1.1.0
+azure-keyvault-secrets==4.7.0
+azure-identity==1.13.0
+openai==0.28.1
+motor==3.3.1
